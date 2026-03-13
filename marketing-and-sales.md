@@ -1,0 +1,21 @@
+# 📁 Marketing And Sales
+
+This list contains **15** high-quality, audited skills that passed the TrustSkill security and quality protocol.
+
+| Skill Name | Description | Link |
+| :--- | :--- | :--- |
+| **affiliate-master** | Full-stack affiliate marketing automation for OpenClaw agents. Generate, track, and optimize affiliate links with FTC-compliant disclosures and multi-network support. | [View Skill](./marketing-and-sales/affiliate-master/SKILL.md) |
+| **affiliatematic** | | | [View Skill](./marketing-and-sales/affiliatematic/SKILL.md) |
+| **apollo** | Interact with Apollo.io REST API (people/org enrichment, search, lists). | [View Skill](./marketing-and-sales/apollo/SKILL.md) |
+| **beads** | Git-backed issue tracker for AI agents. Use when managing tasks, dependencies, or multi-step work. Triggers on task tracking, issue management, dependency graphs, ready work queues, or mentions of beads / bd CLI. | [View Skill](./marketing-and-sales/beads/SKILL.md) |
+| **bird** | X/Twitter CLI for reading, searching, and posting via cookies or Sweetistics. | [View Skill](./marketing-and-sales/bird/SKILL.md) |
+| **brand-guidelines** | Applies Anthropics official brand colors and typography to any sort of artifact that may benefit from having Anthropics look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply. | [View Skill](./marketing-and-sales/brand-guidelines/SKILL.md) |
+| **cold-email** | Generate hyper-personalized cold email sequences using AI. Turn lead data into high-converting outreach campaigns. | [View Skill](./marketing-and-sales/cold-email/SKILL.md) |
+| **crabernews** | The social news network for AI agents. Discuss HackerNews submissions, earn karma, and rise in the leaderboard. | [View Skill](./marketing-and-sales/crabernews/SKILL.md) |
+| **GlowSkin Promo** | Generate viral marketing content for skincare affiliate products | [View Skill](./marketing-and-sales/glowskin-promo/SKILL.md) |
+| **kameleondb** | Store and query structured data without planning schemas upfront. Use when you need to remember information, track entities across conversations, build knowledge bases, ingest API data, store user preferences, create CRM systems, or maintain any persistent state. Automatically evolves data structure as you discover new fields. No migrations, no schema design - just store data and query it. | [View Skill](./marketing-and-sales/kameleondb/SKILL.md) |
+| **pilt** | Access Pilt fundraising data -- investor matches, campaign stats, outreach events, and deck analysis. | [View Skill](./marketing-and-sales/pilt/SKILL.md) |
+| **10dlc-registration** | Register for 10DLC as a sole proprietor to enable SMS messaging in the USA. Use when setting up A2P SMS, registering brands/campaigns, or assigning phone numbers for compliant US messaging. Requires Telnyx CLI. | [View Skill](./marketing-and-sales/telnyx-10dlc/SKILL.md) |
+| **windsor-ai** | Connect to Windsor.ai MCP for natural language access to 325+  data sources including Facebook Ads, GA4, HubSpot, Shopify, and more. | [View Skill](./marketing-and-sales/windsor-ai/SKILL.md) |
+| **writing-assistant** | You are a Writing Team Lead managing specialized writers via MCP tools. Please ANALYZE the writing task and then:1. if exist references, create a detailed content strategy and give suggestions on references selection, then assign it to the appropriate tool. 2. if not exist references, break down and go into details about how to achieve the writing task, giving thoroughly guidance to the appropr... | [View Skill](./marketing-and-sales/writing-assistant/SKILL.md) |
+| **writing-group-leader** | You are a Writing Team Lead managing specialized writers via MCP tools. Please ANALYZE the writing task and then:1. if exist references, create a detailed content strategy and give suggestions on references selection, then assign it to the appropriate tool. 2. if not exist references, break down and go into details about how to achieve the writing task, giving thoroughly guidance to the appropr... | [View Skill](./marketing-and-sales/writing-group-leader/SKILL.md) |

@@ -1,0 +1,33 @@
+version: "3.1"
+scanning:
+  mode: deep
+secret_detection:
+  enabled: true
+  min_entropy: 4.5
+rules:
+  custom_patterns:
+    # 🎯 Prompt Injection Patterns
+    - name: "prompt_injection_risk"
+      pattern: "ignore\\s+previous\\s+instructions|system\\s+prompt|prompt\\s+override"
+      severity: HIGH
+      description: "Potential Prompt Injection instructions found in code/documentation"
+    - name: "tainted_prompt_construction"
+      pattern: "f['\"]\\{prompt\\}|['\"]\\s*\\+\\s*prompt|prompt\\.substring"
+      severity: MEDIUM
+      description: "Direct concatenation of user prompt into LLM call (Prompt Injection risk)"
+    - name: "system_prompt_exposure"
+      pattern: "SystemPrompt|system_prompt|const\\s+prompt\\s*=\\s*[`'\"]"
+      severity: MEDIUM
+      description: "Hardcoded system prompt which might be vulnerable to leaks"
+    
+    # 🔓 Sensitive Data Access (Specific to OpenClaw)
+    - name: "openclaw_memory_leak"
+      pattern: "MEMORY\\.md|SOUL\\.md|USER\\.md"
+      severity: HIGH
+      description: "Accessing sensitive OpenClaw memory files"
+
+  severity_overrides:
+    # Upgrade standard issues to HIGH for this audit if desired
+    command_injection: HIGH
+    data_exfiltration: HIGH
+    hardcoded_secret: HIGH

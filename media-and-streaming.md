@@ -1,0 +1,31 @@
+# 📁 Media And Streaming
+
+This list contains **25** high-quality, audited skills that passed the TrustSkill security and quality protocol.
+
+| Skill Name | Description | Link |
+| :--- | :--- | :--- |
+| **anime** | CLI for AI agents to search and lookup anime info for their humans. Uses Jikan (unofficial MyAnimeList API). No auth required. | [View Skill](./media-and-streaming/anime/SKILL.md) |
+| **anime** | CLI for AI agents to search and lookup anime info for their humans. Uses Jikan (unofficial MyAnimeList API). No auth required. | [View Skill](./media-and-streaming/anime-lookup/SKILL.md) |
+| **apple-media** | Control Apple TV, HomePod, and AirPlay devices via pyatv (scan, stream, playback, volume, navigation). | [View Skill](./media-and-streaming/apple-media/SKILL.md) |
+| **blucli** | BluOS CLI (blu) for discovery, playback, grouping, and volume. | [View Skill](./media-and-streaming/blucli/SKILL.md) |
+| **chromecast** | Control Chromecast devices on your local network - discover, cast media, control playback, manage queues, and save/restore states | [View Skill](./media-and-streaming/chromecast/SKILL.md) |
+| **managing-apple-music** | Control Apple Music on macOS via the `clawtunes` CLI (play songs/albums/playlists, control playback, volume, shuffle, repeat, search, catalog lookup, AirPlay, and playlist management). Use when a user asks to play music, search for songs, control audio playback, or manage Apple Music settings. | [View Skill](./media-and-streaming/clawtunes/SKILL.md) |
+| **download-tools** | CLI download tools for YouTube and WeChat | [View Skill](./media-and-streaming/download-tools/SKILL.md) |
+| **eachlabs-music** | Generate songs, instrumentals, lyrics, and podcasts using EachLabs Mureka AI models. Also supports song extension, stem separation, and song recognition. Use when the user wants to create music, lyrics, or audio content. | [View Skill](./media-and-streaming/eachlabs-music/SKILL.md) |
+| **feishu-voice-assistant** | Sends voice messages (audio) to Feishu chats using Duby TTS. | [View Skill](./media-and-streaming/feishu-voice-assistant/SKILL.md) |
+| **ffmpeg-master** | Use when performing video/audio processing tasks including transcoding, filtering, streaming, metadata manipulation, or complex filtergraph operations with FFmpeg. | [View Skill](./media-and-streaming/ffmpeg-master/SKILL.md) |
+| **insta-cog** | Full video production from a single prompt. Script, shoot, stitch, score — automatically. 30s to 4-minute Instagram Reels, TikToks, Stories, and carousels with consistent characters and agentic editing. The most advanced AI video suite for social media content, powered by #1 on DeepResearch Bench (Feb 2026). | [View Skill](./media-and-streaming/insta-cog/SKILL.md) |
+| **Pocket-TTS** | Generate speech from text using Kyutai Pocket TTS - lightweight, CPU-friendly, streaming TTS with voice cloning. English only. ~6x real-time on M4 MacBook Air. | [View Skill](./media-and-streaming/lb-pocket-tts-skill/SKILL.md) |
+| **letterboxd-tracker** | Your personal movie assistant. Track what you watch, check your lists, and get movie info from Letterboxd instantly. | [View Skill](./media-and-streaming/letterboxd-tracker/SKILL.md) |
+| **mal-lookup** | Direct MyAnimeList lookup tool. Bypasses Jikan/API issues by using MALs internal endpoints. | [View Skill](./media-and-streaming/mal-lookup/SKILL.md) |
+| **media-player** | Play audio/video locally on the host | [View Skill](./media-and-streaming/media-player/SKILL.md) |
+| **mlx-audio-server** | Local 24x7 OpenAI-compatible API server for STT/TTS, powered by MLX on your Mac. | [View Skill](./media-and-streaming/mlx-audio-server/SKILL.md) |
+| **mobb-vulnerabilities-fixer** | Scan, fix, and remediate security vulnerabilities in a local code repository using Mobb MCP/CLI. Use when the user asks to scan for vulnerabilities, run a security check, auto-fix issues, remediate findings, or apply Mobb fixes (e.g., \scan this repo\, \fix security issues\, \remediate vulnerabilities\, \run Mobb on my changes\). | [View Skill](./media-and-streaming/mobb-vulnerabilities-fixer/SKILL.md) |
+| **music-cog** | Original music, fully yours. 5 seconds to 10 minutes using frontier music generation models. Instrumental and vocal tracks with perfect vocals. Cinematic scores, background tracks, podcast intros, game soundtracks, ambient soundscapes, jingles, lo-fi beats, orchestral compositions, songs with lyrics. | [View Skill](./media-and-streaming/music-cog/SKILL.md) |
+| **overseerr** | Request movies/TV and monitor request status via the Overseerr API (stable Overseerr, not the beta Seerr rewrite). | [View Skill](./media-and-streaming/overseerr/SKILL.md) |
+| **roomsound** | RoomSound gives your agent the skill to play audio to your speakers. Starting with YouTube to Bluetooth speakers, expanding to local files and other sources. | [View Skill](./media-and-streaming/roomsound/SKILL.md) |
+| **slashbot-news** | DEPRECATED — Use https://clawhub.ai/alphabot-ai/slashbot instead. This is a duplicate that will be removed. | [View Skill](./media-and-streaming/slashbot-news/SKILL.md) |
+| **social-media-content-calendar** | Generate structured social media content calendars with platform-specific posts, hashtags, and scheduling. Use when creating social media plans, content calendars, or social media management deliverables for clients. | [View Skill](./media-and-streaming/social-media-content-calendar/SKILL.md) |
+| **social-media-scheduler** | Generate a full week of social media content for any topic. Outputs platform-optimized posts for Twitter/X, LinkedIn, and Instagram with hashtags and posting times. | [View Skill](./media-and-streaming/weekly-content-planner/SKILL.md) |
+| **wiim** | Control WiiM audio devices (play, pause, stop, next, prev, volume, mute, play URLs, presets). Use when the user wants to control music playback, adjust volume, discover WiiM/LinkPlay speakers on the network, or play audio from a URL on a WiiM device. | [View Skill](./media-and-streaming/wiim/SKILL.md) |
+| **youtube-pro** | Advanced YouTube analysis, transcripts, and metadata extraction. | [View Skill](./media-and-streaming/youtube-pro/SKILL.md) |

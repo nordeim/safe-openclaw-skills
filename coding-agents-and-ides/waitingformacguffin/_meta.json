@@ -1,0 +1,17 @@
+{
+  "owner": "sonderspot",
+  "slug": "waitingformacguffin",
+  "displayName": "WaitingForMacGuffin",
+  "latest": {
+    "version": "1.2.0",
+    "publishedAt": 1772648154661,
+    "commit": "https://github.com/openclaw/skills/commit/6ef00df2413605636c8505c9cc4a829e3b90d734"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771457480698,
+      "commit": "https://github.com/openclaw/skills/commit/445e03b2dcea57690dff7f2fcddd8aaf1309477b"
+    }
+  ]
+}
